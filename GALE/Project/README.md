@@ -1,174 +1,90 @@
-\# P28 – Hybrid BM25 and Dense Retrieval for Technical Support Search
+# P28 – Hybrid BM25 and Dense Retrieval for Technical Support Search
 
+<p align="center">
+  <strong>Generative AI & AI Platform Engineering (GALE)</strong><br>
+  Information Retrieval | Semantic Search | Hybrid Retrieval
+</p>
 
+---
 
-<sub>GENERATIVE AI \& AI PLATFORM ENGINEERING · TRIMESTER 5</sub>
+## 📌 Project Overview
 
+P28 explores a hybrid information retrieval approach for technical support search by combining **BM25-based keyword retrieval** with **dense semantic retrieval**.
 
+Traditional keyword-based retrieval identifies relevant documents through term matching, while dense retrieval captures semantic relationships using text embeddings. Combining these approaches aims to improve search relevance by considering both keyword matches and contextual meaning.
 
-\*\*Project ID:\*\* P28  
+The project focuses on understanding, implementing, and evaluating hybrid retrieval techniques for technical support information.
 
-\*\*Team:\*\* Team 2  
+## 🎯 Project Objectives
 
-\*\*Domain:\*\* Information Retrieval · Semantic Search · Hybrid Retrieval
+- Implement traditional keyword-based retrieval using BM25.
+- Explore dense retrieval using text embeddings.
+- Generate semantic embeddings using Sentence Transformers.
+- Understand vector similarity search using FAISS or ChromaDB.
+- Combine keyword and dense retrieval techniques.
+- Evaluate retrieval effectiveness using standard information retrieval metrics.
 
+## ⚙️ System Components
 
-
-\---
-
-
-
-\## 📌 Project Overview
-
-
-
-This project explores a \*\*hybrid information retrieval approach\*\* for technical support search by combining traditional keyword-based retrieval with dense semantic retrieval.
-
-
-
-Traditional keyword search identifies documents through matching terms, whereas dense retrieval uses text embeddings to identify relevant information based on the meaning and context of a query.
-
-
-
-By integrating both techniques, the project aims to improve the relevance and effectiveness of retrieving technical support information.
-
-
-
-\## 🎯 Objectives
-
-
-
-\- Understand keyword-based information retrieval using BM25.
-
-\- Explore dense retrieval using text embeddings.
-
-\- Generate semantic embeddings using Sentence Transformers.
-
-\- Study vector search using FAISS or ChromaDB.
-
-\- Combine keyword and dense retrieval techniques through hybrid search.
-
-\- Evaluate retrieval effectiveness using standard information retrieval metrics.
-
-
-
-\## ⚙️ Key Components
-
-
-
-| Component | Purpose |
-
+| Component | Description |
 |:--|:--|
+| **BM25 Retrieval** | Ranks documents based on keyword relevance. |
+| **Dense Retrieval** | Retrieves semantically similar documents using embeddings. |
+| **Sentence Transformers** | Generates dense vector representations of text. |
+| **Vector Search** | Enables similarity-based retrieval using FAISS or ChromaDB. |
+| **Hybrid Retrieval** | Combines keyword-based and semantic retrieval results. |
+| **Performance Evaluation** | Measures retrieval quality using standard evaluation metrics. |
 
-| \*\*BM25 Retrieval\*\* | Retrieves documents based on keyword relevance. |
+## 🛠️ Technology Stack
 
-| \*\*Dense Retrieval\*\* | Finds semantically related documents using vector embeddings. |
-
-| \*\*Sentence Transformers\*\* | Generates text embeddings for semantic search. |
-
-| \*\*Vector Search\*\* | Supports similarity-based retrieval using vector indexes or databases. |
-
-| \*\*Hybrid Retrieval\*\* | Combines keyword-based and semantic retrieval results. |
-
-| \*\*Evaluation\*\* | Measures retrieval effectiveness using standard metrics. |
-
-
-
-\## 🛠️ Technology Stack
-
-
-
-| Technology | Application |
-
+| Technology | Purpose |
 |:--|:--|
+| Python | Core implementation |
+| BM25 | Keyword-based information retrieval |
+| Sentence Transformers | Text embedding generation |
+| FAISS / ChromaDB | Vector similarity search |
+| Text Embeddings | Semantic document representation |
+| Precision@K, Recall@K, MRR | Retrieval evaluation |
 
-| Python | Core development |
+## 🔄 Proposed Workflow
 
-| BM25 | Keyword-based retrieval |
+1. Prepare technical support documents and search queries.
+2. Implement BM25-based keyword retrieval.
+3. Generate document and query embeddings using Sentence Transformers.
+4. Perform dense retrieval using vector similarity search.
+5. Combine keyword and dense retrieval results.
+6. Evaluate retrieval effectiveness using standard metrics.
 
-| Sentence Transformers | Semantic embedding generation |
+## 📊 Evaluation Metrics
 
-| Text Embeddings | Meaning-based document representation |
+- **Precision@K:** Measures the proportion of relevant documents among the top K retrieved results.
+- **Recall@K:** Measures the proportion of all relevant documents retrieved within the top K results.
+- **Mean Reciprocal Rank (MRR):** Measures the ranking position of the first relevant result.
 
-| FAISS / ChromaDB | Vector search |
+## 📚 Expected Learning Outcomes
 
-| Information Retrieval Metrics | Performance evaluation |
+- Understand the fundamentals of information retrieval.
+- Gain practical exposure to BM25 and dense retrieval.
+- Work with semantic embeddings and vector search.
+- Understand hybrid retrieval architectures.
+- Evaluate search performance using information retrieval metrics.
 
+## 📁 Project Resources
 
+This directory maintains the project's implementation, source code, supporting resources, technical documentation, and execution results.
 
-\## 📊 Evaluation Metrics
+---
 
+## 👥 Project Information
 
-
-\- \*\*Precision@K:\*\* Measures the proportion of relevant documents among the top K retrieved results.
-
-\- \*\*Recall@K:\*\* Measures the proportion of all relevant documents retrieved within the top K results.
-
-\- \*\*Mean Reciprocal Rank (MRR):\*\* Evaluates the ranking position of the first relevant result.
-
-
-
-\## 🔍 Project Workflow
-
-
-
-1\. Prepare technical support documents and search queries.
-
-2\. Implement keyword-based retrieval using BM25.
-
-3\. Generate dense embeddings using Sentence Transformers.
-
-4\. Perform similarity-based retrieval using vector search.
-
-5\. Combine keyword and dense retrieval results.
-
-6\. Evaluate retrieval performance using Precision@K, Recall@K, and MRR.
-
-
-
-\## 📁 Project Resources
-
-
-
-This directory is intended to organize the project implementation, supporting resources, documentation, and execution results.
-
-
-
-\## 🎓 Expected Learning Outcomes
-
-
-
-\- Understand the fundamentals of information retrieval.
-
-\- Gain practical exposure to BM25 and dense retrieval.
-
-\- Work with text embeddings and vector search technologies.
-
-\- Understand hybrid search architectures.
-
-\- Evaluate retrieval quality using standard performance metrics.
-
-
-
-\---
-
-
-
-\### Project Information
-
-
-
-| Detail | Information |
-
+| Detail | Description |
 |:--|:--|
-
-| Project | P28 – Hybrid BM25 and Dense Retrieval for Technical Support Search |
-
-| Course | Generative AI \& AI Platform Engineering |
-
 | Project ID | P28 |
-
+| Project Title | Hybrid BM25 and Dense Retrieval for Technical Support Search |
 | Team | Team 2 |
-
+| Course | Generative AI & AI Platform Engineering |
 | Academic Level | B.Tech – Trimester 5 |
 
+---
+
+*Developed as part of the Generative AI & AI Platform Engineering coursework.*
