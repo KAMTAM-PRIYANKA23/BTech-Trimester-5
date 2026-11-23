@@ -2,35 +2,43 @@
 
 
 
-\*\*Course:\*\* Generative AI \& AI Platform Engineering (GALE)  
+<sub>GENERATIVE AI \& AI PLATFORM ENGINEERING · TRIMESTER 5</sub>
+
+
 
 \*\*Project ID:\*\* P28  
 
-\*\*Team:\*\* Team 2
+\*\*Team:\*\* Team 2  
+
+\*\*Domain:\*\* Information Retrieval · Semantic Search · Hybrid Retrieval
 
 
 
-\## Overview
+\---
 
 
 
-This project explores a hybrid information retrieval approach for technical support search by combining traditional keyword-based retrieval with dense semantic retrieval.
+\## 📌 Project Overview
 
 
 
-Traditional keyword search identifies documents based on matching terms, while dense retrieval uses semantic embeddings to identify relevant information based on the meaning and context of a query.
+This project explores a \*\*hybrid information retrieval approach\*\* for technical support search by combining traditional keyword-based retrieval with dense semantic retrieval.
 
 
 
-By combining both approaches, the project aims to improve the relevance and effectiveness of retrieving technical support information.
+Traditional keyword search identifies documents through matching terms, whereas dense retrieval uses text embeddings to identify relevant information based on the meaning and context of a query.
 
 
 
-\## Objectives
+By integrating both techniques, the project aims to improve the relevance and effectiveness of retrieving technical support information.
 
 
 
-\- Understand traditional keyword-based information retrieval using BM25.
+\## 🎯 Objectives
+
+
+
+\- Understand keyword-based information retrieval using BM25.
 
 \- Explore dense retrieval using text embeddings.
 
@@ -40,91 +48,105 @@ By combining both approaches, the project aims to improve the relevance and effe
 
 \- Combine keyword and dense retrieval techniques through hybrid search.
 
-\- Evaluate retrieval performance using standard information retrieval metrics.
+\- Evaluate retrieval effectiveness using standard information retrieval metrics.
 
 
 
-\## Key Components
+\## ⚙️ Key Components
 
 
 
-| Component | Description |
+| Component | Purpose |
 
-|---|---|
+|:--|:--|
 
-| BM25 Retrieval | Retrieves relevant documents based on keyword matching. |
+| \*\*BM25 Retrieval\*\* | Retrieves documents based on keyword relevance. |
 
-| Dense Retrieval | Finds semantically related documents using vector embeddings. |
+| \*\*Dense Retrieval\*\* | Finds semantically related documents using vector embeddings. |
 
-| Sentence Transformers | Generates embeddings for semantic search. |
+| \*\*Sentence Transformers\*\* | Generates text embeddings for semantic search. |
 
-| Vector Search | Supports similarity-based retrieval using vector databases or indexes. |
+| \*\*Vector Search\*\* | Supports similarity-based retrieval using vector indexes or databases. |
 
-| Hybrid Retrieval | Combines keyword and semantic search results. |
+| \*\*Hybrid Retrieval\*\* | Combines keyword-based and semantic retrieval results. |
 
-| Evaluation | Measures retrieval quality using Precision@K, Recall@K and MRR. |
-
-
-
-\## Technologies and Tools
+| \*\*Evaluation\*\* | Measures retrieval effectiveness using standard metrics. |
 
 
 
-\- Python
-
-\- BM25
-
-\- Sentence Transformers
-
-\- Text Embeddings
-
-\- FAISS / ChromaDB
-
-\- Information Retrieval Techniques
+\## 🛠️ Technology Stack
 
 
 
-\## Evaluation Metrics
+| Technology | Application |
+
+|:--|:--|
+
+| Python | Core development |
+
+| BM25 | Keyword-based retrieval |
+
+| Sentence Transformers | Semantic embedding generation |
+
+| Text Embeddings | Meaning-based document representation |
+
+| FAISS / ChromaDB | Vector search |
+
+| Information Retrieval Metrics | Performance evaluation |
 
 
 
-\- \*\*Precision@K:\*\* Measures how many of the top K retrieved results are relevant.
-
-\- \*\*Recall@K:\*\* Measures how many relevant documents are retrieved within the top K results.
-
-\- \*\*Mean Reciprocal Rank (MRR):\*\* Measures how highly the first relevant result appears in the search results.
+\## 📊 Evaluation Metrics
 
 
 
-\## Project Structure
+\- \*\*Precision@K:\*\* Measures the proportion of relevant documents among the top K retrieved results.
+
+\- \*\*Recall@K:\*\* Measures the proportion of all relevant documents retrieved within the top K results.
+
+\- \*\*Mean Reciprocal Rank (MRR):\*\* Evaluates the ranking position of the first relevant result.
 
 
 
-The project directory will contain the implementation, supporting resources, documentation, and execution results as the project progresses.
+\## 🔍 Project Workflow
 
 
 
-\## Expected Outcome
+1\. Prepare technical support documents and search queries.
+
+2\. Implement keyword-based retrieval using BM25.
+
+3\. Generate dense embeddings using Sentence Transformers.
+
+4\. Perform similarity-based retrieval using vector search.
+
+5\. Combine keyword and dense retrieval results.
+
+6\. Evaluate retrieval performance using Precision@K, Recall@K, and MRR.
 
 
 
-Develop an understanding and practical implementation of a hybrid retrieval approach that combines keyword matching and semantic similarity to improve technical support search.
+\## 📁 Project Resources
 
 
 
-\## Learning Outcomes
+This directory is intended to organize the project implementation, supporting resources, documentation, and execution results.
 
 
 
-\- Understanding of information retrieval systems.
+\## 🎓 Expected Learning Outcomes
 
-\- Practical exposure to BM25 and dense retrieval.
 
-\- Experience with text embeddings and vector search.
 
-\- Understanding of hybrid search techniques.
+\- Understand the fundamentals of information retrieval.
 
-\- Ability to evaluate retrieval performance using standard metrics.
+\- Gain practical exposure to BM25 and dense retrieval.
+
+\- Work with text embeddings and vector search technologies.
+
+\- Understand hybrid search architectures.
+
+\- Evaluate retrieval quality using standard performance metrics.
 
 
 
@@ -132,9 +154,21 @@ Develop an understanding and practical implementation of a hybrid retrieval appr
 
 
 
-\*\*Project:\*\* P28 – Hybrid BM25 and Dense Retrieval for Technical Support Search  
+\### Project Information
 
-\*\*Course:\*\* Generative AI \& AI Platform Engineering  
 
-\*\*Team:\*\* Team 2
+
+| Detail | Information |
+
+|:--|:--|
+
+| Project | P28 – Hybrid BM25 and Dense Retrieval for Technical Support Search |
+
+| Course | Generative AI \& AI Platform Engineering |
+
+| Project ID | P28 |
+
+| Team | Team 2 |
+
+| Academic Level | B.Tech – Trimester 5 |
 
