@@ -1,4 +1,4 @@
-@'
+
 # ⚡ CUDA Parallel Reduction and GPU Aggregation Engine
 
 <p align="center">
