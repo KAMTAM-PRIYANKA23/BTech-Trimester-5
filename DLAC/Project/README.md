@@ -1,4 +1,4 @@
-@'
+
 # ⚡ CUDA Parallel Reduction and GPU Aggregation Engine
 
 <p align="center">
@@ -91,3 +91,16 @@ Accuracy Verification
      |
      v
 Results and Visualization
+
+## 📊 Benchmark Results
+
+The project was evaluated using datasets of 1M, 10M, and 50M elements.
+
+| Performance Metric | Recorded Result |
+|---|---:|
+| GPU Kernel Speedup (50M elements) | 37.81× |
+| Overall Speedup (including data transfer) | 1.68× |
+| Tested CUDA Block Sizes | 128, 256, 512, 1024 |
+| Block Size Optimization | 5.2% improvement (1024 vs 256) |
+
+The results demonstrate the benefits of GPU parallel processing and the impact of memory transfer overhead on overall performance.
