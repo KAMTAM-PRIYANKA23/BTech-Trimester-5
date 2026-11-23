@@ -1,104 +1,73 @@
-\# 🧪 GALE – Skill Development \& Practical Exercises
+# GALE – Skill Experiments
 
+<p align="center">
+  <strong>Generative AI & AI Platform Engineering</strong><br>
+  Hands-on Learning | Technical Implementation | Experimentation
+</p>
 
+---
 
-<sub>GENERATIVE AI \& AI PLATFORM ENGINEERING · TRIMESTER 5</sub>
+## 📌 Overview
 
+This directory contains skill development activities, hands-on exercises, and practical experiments completed as part of the **Generative AI & AI Platform Engineering (GALE)** course.
 
+The focus is on developing practical knowledge of Generative AI technologies through implementation, testing, execution, and observation.
 
-\## 📌 Overview
+Each skill exercise documents the concepts explored, tools used, implementation process, and outcomes.
 
+## 🧠 Skill Development Areas
 
-
-This directory maintains a structured record of skill development activities and hands-on practical exercises completed as part of the \*\*Generative AI \& AI Platform Engineering (GALE)\*\* course.
-
-
-
-Each experiment focuses on understanding concepts through practical implementation, execution, testing, and observation.
-
-
-
-\## 🧠 Skill Development Areas
-
-
-
-| Area | Focus |
-
+| Area | Description |
 |:--|:--|
+| **Generative AI Fundamentals** | Understanding Generative AI concepts, capabilities, and applications. |
+| **Large Language Models** | Exploring LLM architecture, capabilities, and practical applications. |
+| **Prompt Engineering** | Designing and experimenting with effective prompts. |
+| **LLM API Integration** | Connecting Python applications with language models through APIs. |
+| **Python AI Development** | Developing and executing AI-powered Python applications. |
+| **AI SDKs & Tools** | Working with software development kits and AI platforms. |
+| **Information Retrieval** | Exploring embeddings, semantic search, and retrieval methods. |
 
-| \*\*Generative AI Fundamentals\*\* | Understanding Generative AI concepts and applications. |
+## 🛠️ Tools & Technologies
 
-| \*\*LLM Integration\*\* | Connecting Python applications with Large Language Models through APIs. |
+`Python` · `Google Gemini` · `LLM APIs` · `Python SDKs` · `VS Code` · `Git` · `GitHub`
 
-| \*\*Prompt Engineering\*\* | Designing and testing effective prompts. |
+## 🧪 Practical Documentation
 
-| \*\*Python Development\*\* | Building and executing AI-powered Python applications. |
-
-| \*\*API Integration\*\* | Working with AI APIs, SDKs, and authentication. |
-
-| \*\*AI Tools \& Platforms\*\* | Exploring tools used in AI application development. |
-
-| \*\*Information Retrieval\*\* | Understanding embeddings, semantic search, and retrieval techniques. |
-
-
-
-\## 🛠️ Tools \& Technologies
-
-
-
-`Python` · `Google Gemini` · `LLM APIs` · `VS Code` · `Git` · `GitHub` · `AI Development Tools`
-
-
-
-\## 📂 Experiment Documentation
-
-
-
-Individual skill exercises and their supporting resources are organized within this directory.
-
-
+Individual experiments and skill exercises are maintained in this directory.
 
 Each experiment may include:
 
+- **Aim:** Purpose of the experiment.
+- **Tools Required:** Software, libraries, and platforms used.
+- **Procedure:** Implementation and execution steps.
+- **Execution:** Source code and practical outputs.
+- **Result:** Outcome of the experiment.
+- **Conclusion:** Concepts and skills gained.
 
+## 🎯 Learning Objectives
 
-\- Aim and objectives
+- Develop hands-on experience with Generative AI technologies.
+- Understand communication between applications and LLM APIs.
+- Gain practical exposure to Python-based AI development.
+- Explore prompt engineering and AI development tools.
+- Understand the fundamentals of embeddings and information retrieval.
+- Strengthen technical implementation and problem-solving skills.
 
-\- Software and tools required
+## 📂 Repository Organization
 
-\- Procedure and implementation
+Skill exercises, supporting files, source code, and execution records are organized within this directory for easy reference and future learning.
 
-\- Source code and execution outputs
+---
 
-\- Observations and results
+## 📖 Course Information
 
-\- Important concepts and learning outcomes
+| Detail | Description |
+|:--|:--|
+| Course | Generative AI & AI Platform Engineering |
+| Course Code | GALE |
+| Program | B.Tech – Computer Science and Information Technology |
+| Academic Level | Trimester 5 |
 
+---
 
-
-\## 🎯 Learning Goals
-
-
-
-\- Develop practical experience with Generative AI technologies.
-
-\- Understand how applications interact with LLMs.
-
-\- Gain confidence in Python-based AI development.
-
-\- Explore AI APIs, tools, and development workflows.
-
-\- Strengthen problem-solving and implementation skills through experimentation.
-
-
-
-\---
-
-
-
-\*\*Course:\*\* Generative AI \& AI Platform Engineering (GALE)  
-
-\*\*Program:\*\* B.Tech – Computer Science and Information Technology  
-
-\*\*Academic Level:\*\* Trimester 5
-
+*Documenting practical learning, experimentation, and continuous technical development.*
