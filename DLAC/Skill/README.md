@@ -1,10 +1,10 @@
-# ?? Deep Learning with Accelerated Computing (DLAC)
+﻿# :brain: Deep Learning with Accelerated Computing (DLAC)
 
-## ?? Overview
+## :books: Overview
 
 This directory contains skill-based laboratory experiments, execution records, observations, and implementations related to Deep Learning with Accelerated Computing.
 
-## ?? Contents
+## :file_folder: Contents
 
 - Skill experiments
 - Source code and implementations
