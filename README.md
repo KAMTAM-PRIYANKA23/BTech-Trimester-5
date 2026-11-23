@@ -1,220 +1,163 @@
-\# B.Tech | Trimester 5
+ <div align="center">
 
+# B.TECH · TRIMESTER 05
 
+### CS & IT | Academic Repository
 
-\*\*Academic Workspace · 2026–2027\*\*
+**2026 – 2027**
 
+A unified workspace for academic learning, practical implementation, technical experimentation and project development.
 
+<br/>
 
-A centralized repository containing coursework, skill experiments, practical implementations, and projects completed during Trimester 5 of the B.Tech program.
+![Academic](https://img.shields.io/badge/PROGRAM-B.Tech-243B53?style=for-the-badge)
+![Trimester](https://img.shields.io/badge/TRIMESTER-05-315C78?style=for-the-badge)
+![Academic Year](https://img.shields.io/badge/ACADEMIC_YEAR-2026--2027-526D82?style=for-the-badge)
 
+</div>
 
+---
 
-\---
+## 01 · Repository Overview
 
+| Attribute | Details |
+|:--|:--|
+| **Program** | B.Tech – Computer Science & Information Technology |
+| **Institution** | KLH University |
+| **Academic Year** | 2026–2027 |
+| **Academic Term** | Trimester 5 |
+| **Repository** | `BTech-Trimester-5` |
+| **Maintained by** | Kamtam Priyanka |
 
+---
 
-\## Academic Overview
+## 02 · Academic Navigation
 
+One place to access all subject-wise coursework and implementations.
 
+| SUBJECT | SKILL | PROJECT | PRACTICAL |
+|:--|:--:|:--:|:--:|
+| **DLAC** | [Explore ↗](./DLAC/Skill/) | [Explore ↗](./DLAC/Project/) | — |
+| **CDIS** | [Explore ↗](./CDIS/Skill/) | [Explore ↗](./CDIS/Project/) | [Explore ↗](./CDIS/Practical/) |
+| **CNNP** | [Explore ↗](./CNNP/Skill/) | [Explore ↗](./CNNP/Project/) | — |
+| **GALE** | [Explore ↗](./GALE/Skill/) | [Explore ↗](./GALE/Project/) | — |
 
-| Detail | Information |
+---
 
-|:---|:---|
+## 03 · Course Directory
 
-| Program | B.Tech – Computer Science \& Information Technology |
+<details>
+<summary><strong>01. DLAC — Deep Learning with Accelerated Computing</strong></summary>
 
-| University | KLH University |
+Exploring parallel computing, GPU architecture and accelerated computation.
 
-| Academic Year | 2026–2027 |
+**Core Areas**
+- CUDA Programming
+- Parallel Algorithms
+- GPU Computing
+- Performance Optimization
 
-| Semester Structure | Trimester 5 |
+**Directories:** [Skill](./DLAC/Skill/) · [Project](./DLAC/Project/)
 
-| Repository | BTech-Trimester-5 |
+</details>
 
+<details>
+<summary><strong>02. CDIS — Cloud Infrastructure and Services</strong></summary>
 
+Understanding cloud platforms, infrastructure deployment and automated software delivery.
 
-\---
+**Core Areas**
+- Cloud Computing
+- Docker and Containerization
+- CI/CD Pipelines
+- Cloud Infrastructure
+- Application Deployment
 
+**Directories:** [Skill](./CDIS/Skill/) · [Project](./CDIS/Project/) · [Practical](./CDIS/Practical/)
 
+</details>
 
-\## Subject Navigation
+<details>
+<summary><strong>03. CNNP — Computer Networks and Network Programming</strong></summary>
 
+Learning network communication, protocols and practical network programming.
 
+**Core Areas**
+- Computer Network Fundamentals
+- Network Protocols
+- Socket Programming
+- Network Simulation
+- Traffic Analysis
 
-Access the learning materials and implementations for each subject using the navigation links below.
+**Directories:** [Skill](./CNNP/Skill/) · [Project](./CNNP/Project/)
 
+</details>
 
+<details>
+<summary><strong>04. GALE — Generative AI and AI Platform Engineering</strong></summary>
 
-| Subject | Skill | Project | Practical |
+Exploring Generative AI, Large Language Models and AI-powered application development.
 
-|:---|:---:|:---:|:---:|
+**Core Areas**
+- Generative AI
+- Large Language Models (LLMs)
+- Prompt Engineering
+- AI APIs and Integration
+- AI Application Development
 
-| \*\*DLAC\*\* | \[View](./DLAC/Skill/) | \[View](./DLAC/Project/) | — |
+**Directories:** [Skill](./GALE/Skill/) · [Project](./GALE/Project/)
 
-| \*\*CDIS\*\* | \[View](./CDIS/Skill/) | \[View](./CDIS/Project/) | \[View](./CDIS/Practical/) |
+</details>
 
-| \*\*CNNP\*\* | \[View](./CNNP/Skill/) | \[View](./CNNP/Project/) | — |
+---
 
-| \*\*GALE\*\* | \[View](./GALE/Skill/) | \[View](./GALE/Project/) | — |
-
-
-
-\---
-
-
-
-\## Subjects
-
-
-
-\### 01. Deep Learning with Accelerated Computing (DLAC)
-
-
-
-Focuses on deep learning concepts, GPU computing, parallel processing, and accelerated computation.
-
-
-
-\*\*Learning Areas:\*\* CUDA Programming · Parallel Computing · GPU Acceleration · Performance Analysis
-
-
-
-\### 02. Cloud Infrastructure and Services (CDIS)
-
-
-
-Covers cloud computing concepts, infrastructure management, cloud services, and automated deployment practices.
-
-
-
-\*\*Learning Areas:\*\* Cloud Computing · Docker · CI/CD · Cloud Infrastructure · Application Deployment
-
-
-
-\### 03. Computer Networks and Network Programming (CNNP)
-
-
-
-Explores computer networking concepts, network protocols, communication systems, and practical network programming.
-
-
-
-\*\*Learning Areas:\*\* Network Protocols · Socket Programming · Network Simulation · Traffic Analysis
-
-
-
-\### 04. Generative AI and AI Platform Engineering (GALE)
-
-
-
-Focuses on Generative AI technologies, Large Language Models, AI platforms, and building AI-powered applications.
-
-
-
-\*\*Learning Areas:\*\* Generative AI · LLMs · Prompt Engineering · AI APIs · AI Application Development
-
-
-
-\---
-
-
-
-\## Repository Structure
-
-
+## 04 · Repository Architecture
 
 ```text
-
 BTech-Trimester-5/
-
 │
-
 ├── README.md
-
 │
-
 ├── DLAC/
-
 │   ├── Skill/
-
 │   └── Project/
-
 │
-
 ├── CDIS/
-
 │   ├── Skill/
-
 │   ├── Project/
-
 │   └── Practical/
-
 │
-
 ├── CNNP/
-
 │   ├── Skill/
-
 │   └── Project/
-
 │
-
 └── GALE/
-
-&#x20;   ├── Skill/
-
-&#x20;   └── Project/
-
+    ├── Skill/
+    └── Project/
 ```
 
+---
 
+## 05 · Documentation Standards
 
-\---
+| Category | Contents |
+|:--|:--|
+| **Skill** | Experiment records, source code, execution screenshots and observations |
+| **Project** | Project reports, implementation, source code and outcomes |
+| **Practical** | Lab exercises, configurations, execution results and observations |
 
+All coursework is maintained in its respective subject directory for organized access and easy reference.
 
+---
 
-\## Documentation Guidelines
+<div align="center">
 
+---
 
+### LEARN · BUILD · EXPERIMENT · INNOVATE
 
-To maintain consistency across all subjects:
+**B.Tech | Computer Science & Information Technology**
 
+*Trimester 5 · Academic Year 2026–2027*
 
-
-\- \*\*Skill:\*\* Experiment records, source code, execution outputs, and observations.
-
-\- \*\*Project:\*\* Project documentation, implementation, source code, and results.
-
-\- \*\*Practical:\*\* Lab exercises, configurations, execution steps, and observations.
-
-
-
-Each subject folder is organized independently for easy navigation and maintenance.
-
-
-
-\---
-
-
-
-\## Progress \& Updates
-
-
-
-This repository will be updated progressively as coursework, skill experiments, practical exercises, and project implementations are completed throughout Trimester 5.
-
-
-
-\---
-
-
-
-<p align="center">
-
-&#x20; <strong>B.Tech · CS \& IT · Trimester 5</strong><br/>
-
-&#x20; <sub>Learn · Build · Experiment · Document</sub>
-
-</p>
-
+</div>
