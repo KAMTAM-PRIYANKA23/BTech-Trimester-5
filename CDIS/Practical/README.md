@@ -34,13 +34,6 @@ It serves as a centralized location for practical manuals, experiment documentat
 - Visual Studio Code
 - Git and GitHub
 
-## 📂 Practical Records
-
-| Document | Description |
-|---|---|
-| [Week 1](./Week-1.pdf) | Practical exercise – Week 1 |
-| [Week 2](./Week-2.pdf) | Practical exercise – Week 2 |
-| [Week 4](./Week-4.pdf) | Practical exercise – Week 4 |
 
 ## 📝 Documentation Approach
 
