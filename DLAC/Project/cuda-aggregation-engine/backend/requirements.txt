@@ -1,0 +1,8 @@
+# Do NOT list numba / numpy / pandas: Colab already ships GPU-ready versions
+# (the same ones your notebook used). Installing over them can break CUDA.
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+pydantic>=2
+psutil>=5.9
+pyngrok>=7.0
